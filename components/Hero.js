@@ -18,7 +18,10 @@ export default function Hero() {
             Tertarik dengan Web Development, Mobile Development, dan UI/UX
             Design
           </p>
-          <Button variant="yellow" className="mt-10">
+          <Button
+            variant="yellow"
+            className="mt-10 shadow-xl hover:shadow-none"
+          >
             Pelajari
           </Button>
         </div>

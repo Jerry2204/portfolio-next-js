@@ -12,7 +12,12 @@ export default function Navbar() {
         <Nav />
       </div>
       <div className="w-3/12 text-right">
-        <Button variant="outline-yellow">Contact</Button>
+        <Button
+          variant="outline-yellow"
+          className="hover:border-none hover:text-black hover:bg-yellow-500 shadow-lg hover:shadow-none"
+        >
+          Contact
+        </Button>
       </div>
     </div>
   );
