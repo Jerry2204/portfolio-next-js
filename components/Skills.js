@@ -65,7 +65,7 @@ export default function Skills() {
             <SkillCard
               name="Postman"
               level="Advanced"
-              image="/assets/vercel.svg"
+              image="/assets/postman.svg"
             />
           </div>
           <div className="w-4/12 px-4">
