@@ -1,9 +1,16 @@
+const plugin = require("tailwindcss/plugin");
+
 module.exports = {
   mode: "jit",
   purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      fontFamily: {
+        sans: ["Montserrat", "Poppins", "ui-sans-serif", "system-ui"],
+        serif: ["Pacifico", "ui-serif", "Georgia"],
+        mono: ["IBM Plex Mono", "ui-monospace", "SFMono-Regular"],
+      },
       colors: {
         yellow: {
           50: "#ffff109",
@@ -23,5 +30,15 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    plugin(function ({ addUtilities }) {
+      const utilities = {
+        ".bg-hero": {
+          "background-image": "url(/assets/Hero.png)",
+        },
+      };
+
+      addUtilities(utilities);
+    }),
+  ],
 };
