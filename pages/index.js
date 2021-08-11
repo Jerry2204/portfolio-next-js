@@ -1,5 +1,6 @@
 import Hero from "../components/Hero";
 import Profile from "../components/Profile";
+import Project from "../components/Project";
 import Skills from "../components/Skills";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero />
       <Profile />
       <Skills />
+      <Project />
     </>
   );
 }
