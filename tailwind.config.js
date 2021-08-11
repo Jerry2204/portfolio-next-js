@@ -13,6 +13,7 @@ module.exports = {
       },
       colors: {
         skill: "#F1F1FF",
+        submitButton: "#3A3DE2",
         yellow: {
           50: "#ffff109",
           100: "#fffff0",
@@ -36,9 +37,14 @@ module.exports = {
       const utilities = {
         ".bg-hero": {
           "background-image": "url(/assets/Hero.png)",
+          "background-size": "cover",
         },
         ".shadow-skill": {
           "box-shadow": "0px 15px 30px rgba(0, 0, 0, 0.1)",
+        },
+        ".bg-footer": {
+          background:
+            "linear-gradient(189.62deg, #3A3DE2 7.25%, rgba(56, 151, 240, 0.91) 58.46%, #37DAFA 92.75%)",
         },
       };
 

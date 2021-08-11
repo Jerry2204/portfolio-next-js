@@ -13,8 +13,11 @@ export default function Navbar() {
       </div>
       <div className="w-3/12 text-right">
         <Button
+          href="#contact"
           variant="outline-yellow"
           className="hover:border-none hover:text-black hover:bg-yellow-500 shadow-lg hover:shadow-none"
+          pill
+          dataAos="zoom-in"
         >
           Contact
         </Button>

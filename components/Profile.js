@@ -2,20 +2,26 @@ import SectionTitle from "./SectionTitle";
 
 export default function Profile() {
   return (
-    <section>
+    <section id="profile">
       <div className="container mx-auto py-28">
         <SectionTitle paragraf="Mengenal saya secara singkat">
           Profile
         </SectionTitle>
-        <div className="flex items-center mt-10 w-9/12 mx-auto">
+        <div className="flex lg:items-center md:items-start mt-10 xl:w-9/12 mx-auto">
           <div className="w-5/12 p-10">
             <img
               src="/assets/Foto.png"
               alt="Jerry Andrianto Pangaribuan"
               className="w-full"
+              data-aos="fade-right"
+              data-aos-delay="200"
             />
           </div>
-          <div className="w-7/12 p-10 text-justify">
+          <div
+            className="w-7/12 p-10 text-justify"
+            data-aos="fade-left"
+            data-aos-delay="200"
+          >
             <p className="leading-relaxed">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta
               minima dolorum expedita, eos ratione, blanditiis quam porro
