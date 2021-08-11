@@ -7,8 +7,8 @@ export default function Profile() {
         <SectionTitle paragraf="Mengenal saya secara singkat">
           Profile
         </SectionTitle>
-        <div className="flex lg:items-center md:items-start mt-10 xl:w-9/12 mx-auto">
-          <div className="w-5/12 p-10">
+        <div className="sm:flex lg:items-center md:items-start mt-10 xl:w-9/12 mx-auto">
+          <div className="sm:w-5/12 w-7/12 mx-auto md:p-10 p-3">
             <img
               src="/assets/Foto.png"
               alt="Jerry Andrianto Pangaribuan"
@@ -18,7 +18,7 @@ export default function Profile() {
             />
           </div>
           <div
-            className="w-7/12 p-10 text-justify"
+            className="sm:w-7/12 p-10 text-justify"
             data-aos="fade-left"
             data-aos-delay="200"
           >

@@ -10,13 +10,13 @@ export default function ContactSection() {
         <SectionTitle paragraf="Beberapa cara menghubungi saya">
           Contact
         </SectionTitle>
-        <div className="flex mt-10">
+        <div className="md:flex mt-10">
           <div
-            className="w-6/12 border-r border-gray-300"
+            className="md:w-6/12 md:border-r border-gray-300"
             data-aos="fade-down"
             data-aos-delay="200"
           >
-            <div className="p-16">
+            <div className="sm:p-16 p-10">
               <ContactItem
                 label="Mail"
                 value="jerryandrianto22@gmail.com"
@@ -42,8 +42,8 @@ export default function ContactSection() {
               />
             </div>
           </div>
-          <div className="w-6/12" data-aos="fade-down" data-aos-delay="200">
-            <div className="p-16">
+          <div className="md:w-6/12" data-aos="fade-down" data-aos-delay="200">
+            <div className="sm:p-16 p-10">
               <form>
                 <div className="flex -mx-4">
                   <div className="w-6/12 px-4">
