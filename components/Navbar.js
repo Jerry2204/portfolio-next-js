@@ -31,7 +31,7 @@ export default function Navbar() {
           <img
             src="/assets/menu.svg"
             alt=""
-            className="inline-block cursor-pointer"
+            className="inline-block"
             onClick={() => setOffCanvas(true)}
           />
         </div>
@@ -39,14 +39,14 @@ export default function Navbar() {
 
       <div
         className={classnames(
-          "fixed bg-white z-10 top-0 h-full w-full transition-all p-10 md:hidden",
+          "fixed bg-white z-10 top-0 h-full w-full p-10 md:hidden transition-all",
           offCanvas ? "right-0" : "-right-full"
         )}
       >
         <img
           src="/assets/x.svg"
-          alt="close"
-          className="absolute top-5 right-8 w-8 cursor-pointer"
+          className="absolute top-5 right-8 w-8"
+          alt=""
           onClick={() => setOffCanvas(false)}
         />
         <Nav scheme="dark" dir="vertical" />
