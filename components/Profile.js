@@ -13,13 +13,13 @@ export default function Profile() {
               src="/assets/Foto.png"
               alt="Jerry Andrianto Pangaribuan"
               className="w-full"
-              data-aos="fade-right"
+              data-aos="zoom-in"
               data-aos-delay="200"
             />
           </div>
           <div
             className="sm:w-7/12 p-10 text-justify"
-            data-aos="fade-left"
+            data-aos="fade-down"
             data-aos-delay="200"
           >
             <p className="leading-relaxed">
