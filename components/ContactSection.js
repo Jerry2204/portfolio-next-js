@@ -5,7 +5,7 @@ import SectionTitle from "./SectionTitle";
 
 export default function ContactSection() {
   return (
-    <section className="bg-skill py-28" id="contact">
+    <section className="py-28" id="contact">
       <div className="container mx-auto">
         <SectionTitle paragraf="Beberapa cara menghubungi saya">
           Contact
